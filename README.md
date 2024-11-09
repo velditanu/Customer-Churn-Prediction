@@ -40,7 +40,7 @@ During EDA, we examined relationships between customer demographics, account det
 1. **Churn Rate by Age Group**:
    This bar plot shows the churn rate across different age groups.
 
-   ![Churn Rate by Age Group](images/Churn%20by%20age.png)
+   Churn Rate by Age Group.png
 
 2. **Churn Rate by Contract Type**:
    This bar plot shows the churn rate for each contract type.
