@@ -107,14 +107,6 @@ We trained multiple models to predict churn:
 - **Incentivize Long-Term Contracts**: Encourage month-to-month customers to switch to longer-term contracts by offering discounts or perks.
 - **Monitor High-Risk Segments**: Regularly monitor customers with high churn risk based on these insights to proactively address retention needs.
 
-## Requirements
-
-Install the necessary libraries by running:
-
-```bash
-pip install -r requirements.txt
-
-
 ## How to Use / Run the Project
 
 To run this project locally:
