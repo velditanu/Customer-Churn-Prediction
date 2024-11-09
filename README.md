@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Customer-Churn-Prediction
-=======
 # Customer Churn Prediction for Telecom
 
 ## Table of Contents
@@ -117,4 +114,4 @@ To run this project locally:
    ```bash
    git clone https://github.com/velditanu/Customer-churn-prediction.git
    cd Customer-churn-prediction
->>>>>>> c5a9585 (Initial project setup with README, dataset, notebook, and images)
+
