@@ -45,7 +45,7 @@ During EDA, we examined relationships between customer demographics, account det
 2. **Churn Rate by Contract Type**:
    This bar plot shows the churn rate for each contract type.
 
-   Churn Rate by Contract Type.png
+   https://github.com/velditanu/Customer-Churn-Prediction/blob/df984a8ad71a3ac57b650447e20ea480967a47ab/Churn%20Rate%20by%20Contract%20Type.png
 
 3. **Distribution of Monthly Charges by Churn Status**:
    This KDE plot shows the distribution of monthly charges for churned and non-churned customers.
