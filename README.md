@@ -50,27 +50,27 @@ During EDA, we examined relationships between customer demographics, account det
 3. **Distribution of Monthly Charges by Churn Status**:
    This KDE plot shows the distribution of monthly charges for churned and non-churned customers.
 
-   https://github.com/velditanu/Customer-Churn-Prediction/blob/4f44115c18f789e945ee6f52ec47b38b16c93923/Monthly%20Charges%20Distribution%20by%20Churn%20Status.png
+   https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Monthly%20Charges%20Distribution%20by%20Churn%20Status.png
 
 4. **Distribution of Tenure by Churn Status**:
    This KDE plot shows the distribution of tenure for churned vs. non-churned customers.
 
-   https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Monthly%20Charges%20Distribution%20by%20Churn%20Status.png
-
-5. **Distribution of Total Charges by Churn Status**:
+   https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Tenure%20Distribution%20by%20Churn%20Status.png
+   
+6. **Distribution of Total Charges by Churn Status**:
    This KDE plot shows the distribution of total charges for churned and non-churned customers.
 
-   ![Total Charges Distribution by Churn Status](images/Charges.png)
+   https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Total%20Charges%20Distribution%20by%20Churn%20Status.png
 
-6. **ROC Curve**:
+7. **ROC Curve**:
    The ROC curve shows the trade-off between true positive rate and false positive rate for the model.
 
-   ![ROC Curve](images/ROC_Curve.png)
+   https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/ROC_Curve.png
 
-7. **Feature Importance**:
+8. **Feature Importance**:
    This bar plot shows the importance of different features in predicting churn, as calculated by the Random Forest model.
 
-   ![Feature Importance](images/Feature_Importance.png)
+   https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Feature_Importance.png
 
 ## Modeling Approach
 
