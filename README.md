@@ -27,7 +27,7 @@ The dataset contains information about telecom customers, including:
 - **Service Usage**: Internet service type, data usage, additional features, etc.
 - **Churn Label**: Indicates whether the customer has churned or not (target variable).
 
-**File**: `TelcoCustomerChurn.csv`
+**File**: [TelcoCustomerChurn.csv](https://github.com/velditanu/Customer-Churn-Prediction/blob/65e672257d1f9b69e167525b73c5aad78e987b47/TelcoCustomerChurn.csv)
 
 ## Exploratory Data Analysis (EDA)
 
