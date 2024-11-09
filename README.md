@@ -7,6 +7,7 @@
 - [Modeling Approach](#modeling-approach)
 - [Results and Evaluation](#results-and-evaluation)
 - [Key Insights and Business Recommendations](#key-insights-and-business-recommendations)
+- [Requirements](#requirements)
 - [How to Use / Run the Project](#how-to-use--run-the-project)
 
 ## Project Overview
@@ -40,37 +41,37 @@ During EDA, we examined relationships between customer demographics, account det
 1. **Churn Rate by Age Group**:
    This bar plot shows the churn rate across different age groups.
 
-   https://github.com/velditanu/Customer-Churn-Prediction/blob/0de799ea07c3a1f0108744e39748b320f00c4baa/Churn%20Rate%20by%20Age%20Group.png
+   [View Churn Rate by Age Group](https://github.com/velditanu/Customer-Churn-Prediction/blob/0de799ea07c3a1f0108744e39748b320f00c4baa/Churn%20Rate%20by%20Age%20Group.png)
 
 2. **Churn Rate by Contract Type**:
    This bar plot shows the churn rate for each contract type.
 
-   https://github.com/velditanu/Customer-Churn-Prediction/blob/df984a8ad71a3ac57b650447e20ea480967a47ab/Churn%20Rate%20by%20Contract%20Type.png
+   [View Churn Rate by Contract Type](https://github.com/velditanu/Customer-Churn-Prediction/blob/df984a8ad71a3ac57b650447e20ea480967a47ab/Churn%20Rate%20by%20Contract%20Type.png)
 
 3. **Distribution of Monthly Charges by Churn Status**:
    This KDE plot shows the distribution of monthly charges for churned and non-churned customers.
 
-   https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Monthly%20Charges%20Distribution%20by%20Churn%20Status.png
+   [View Monthly Charges Distribution by Churn Status](https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Monthly%20Charges%20Distribution%20by%20Churn%20Status.png)
 
 4. **Distribution of Tenure by Churn Status**:
    This KDE plot shows the distribution of tenure for churned vs. non-churned customers.
 
-   https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Tenure%20Distribution%20by%20Churn%20Status.png
-   
-6. **Distribution of Total Charges by Churn Status**:
+   [View Tenure Distribution by Churn Status](https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Tenure%20Distribution%20by%20Churn%20Status.png)
+
+5. **Distribution of Total Charges by Churn Status**:
    This KDE plot shows the distribution of total charges for churned and non-churned customers.
 
-   https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Total%20Charges%20Distribution%20by%20Churn%20Status.png
+   [View Total Charges Distribution by Churn Status](https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Total%20Charges%20Distribution%20by%20Churn%20Status.png)
 
-7. **ROC Curve**:
+6. **ROC Curve**:
    The ROC curve shows the trade-off between true positive rate and false positive rate for the model.
 
-   https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/ROC_Curve.png
+   [View ROC Curve](https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/ROC_Curve.png)
 
-8. **Feature Importance**:
+7. **Feature Importance**:
    This bar plot shows the importance of different features in predicting churn, as calculated by the Random Forest model.
 
-   https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Feature_Importance.png
+   [View Feature Importance](https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Feature_Importance.png)
 
 ## Modeling Approach
 
@@ -90,9 +91,9 @@ We trained multiple models to predict churn:
 | Model                | AUC Score | Precision | Recall | F1 Score |
 |----------------------|-----------|-----------|--------|----------|
 | Logistic Regression  | 0.98      | 0.94      | 0.89   | 0.91     |
-| Random Forest        | 0.99      | 0.95      | 0.92   | 0.93     |
+| **Random Forest**    | **0.99**  | **0.95**  | **0.92** | **0.93** |
 
-**Best Model**: Based on AUC and F1 score, the Random Forest model performed best in predicting customer churn.
+**Best Model**: Based on AUC and F1 score, the **Random Forest** model performed best in predicting customer churn.
 
 ## Key Insights and Business Recommendations
 
@@ -105,6 +106,14 @@ We trained multiple models to predict churn:
 - **Targeted Retention Campaigns**: Focus on customers with month-to-month contracts and high monthly charges.
 - **Incentivize Long-Term Contracts**: Encourage month-to-month customers to switch to longer-term contracts by offering discounts or perks.
 - **Monitor High-Risk Segments**: Regularly monitor customers with high churn risk based on these insights to proactively address retention needs.
+
+## Requirements
+
+Install the necessary libraries by running:
+
+```bash
+pip install -r requirements.txt
+
 
 ## How to Use / Run the Project
 
