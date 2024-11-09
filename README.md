@@ -50,7 +50,7 @@ During EDA, we examined relationships between customer demographics, account det
 3. **Distribution of Monthly Charges by Churn Status**:
    This KDE plot shows the distribution of monthly charges for churned and non-churned customers.
 
-   ![Monthly Charges Distribution by Churn Status](images/Monthly%20charges.png)
+   ![Monthly Charges Distribution by Churn Status](https://github.com/velditanu/Customer-Churn-Prediction/blob/8ff411c9e3d73d10ea3422dcbd6d3a6b8153b2f6/Monthly%20Charges%20Distribution%20by%20Churn%20Status.png)
 
 4. **Distribution of Tenure by Churn Status**:
    This KDE plot shows the distribution of tenure for churned vs. non-churned customers.
